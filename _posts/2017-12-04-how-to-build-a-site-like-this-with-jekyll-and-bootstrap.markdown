@@ -5,7 +5,7 @@ author:     王士江
 date:       2017-12-04 15:48:00 +0800
 categories: notes
 tags:       Bootstrap Jekyll
-mediaImage: images/banners/jekyll-blog-banner.png
+mediaImage: /images/banners/jekyll-blog-banner.png
 excerpt: 使用Jekyll和Bootstrap，创建一个就像当前网站一样的静态网站——可以是个人博客、项目介绍、学习笔记等等。
 ---
 
@@ -77,12 +77,12 @@ title: Blogging Like a Hacker
 
 接下来，你就可以通过使用[Markdown](https://daringfireball.net/projects/markdown/)来写文章内容了（想看例子的话，可以看看本博客是怎么写的）。
 
-例如，在文章里引用其他资源文件，比如下面这张图片（名称为**“jekyll-blog.png”**，让我放到了网站源代码**“images”**目录下）：
+例如，在文章里引用其他资源文件，比如下面这张图片（名称为**“jekyll-blog-banner.png”**，让我放到了网站源代码**“images”**目录下）：
 
-![使用Jekyll和Bootstrap，创建一个静态网站](/images/jekyll-blog.png)
+![使用Jekyll和Bootstrap，创建一个静态网站](/images/jekyll-blog-banner.png)
 
 我就可以通过以下形式引用到博客里面：
 
 {% highlight text %}
-![使用Jekyll和Bootstrap，创建一个静态网站](/images/jekyll-blog.png)
+![使用Jekyll和Bootstrap，创建一个静态网站](/images/jekyll-blog-banner.png)
 {% endhighlight %}
