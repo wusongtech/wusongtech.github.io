@@ -1,0 +1,29 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: WusongTech
+email: wangshijiang@wusongtech.com
+description: Ours Word, Ours World
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://wusongtech.github.io" # the base hostname & protocol for your site
+repository: https://github.com/wusongtech/wusongtech.github.io
+twitter_username: wusongtech
+github_username:  wusongtech
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+exclude: [node_modules, gulpfile.js]
+
+# Pagination
+paginate: 7
+paginate_path: "page/:num"
+
+plugins:
+ - jekyll-sitemap
+ - jekyll-paginate
